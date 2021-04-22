@@ -1,0 +1,43 @@
+#drumset{
+    width: 40%;
+    z-index: 100;
+}
+h1{
+    text-align: center;
+}
+img#drumset,h1{
+    margin: 1% 30%;
+}
+.keys{
+    text-align: center;
+}
+.keys h3{
+    background-color: black;
+    border-radius: 10px;
+    width: 70px;
+    color: rgb(167, 165, 165);
+}
+.keys h3:hover{
+    cursor: pointer;
+    background-color: white;
+    border: 1px solid;
+    color: black;
+}
+.row.keyset{
+    padding: 3% 22%;
+}
+
+/* Bubbles */
+div[class*="circle"]{
+    background-color: palevioletred;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    z-index: -1;
+    float:left;
+    margin: 0 1%;
+}
+.bubbles{
+   display: flex;
+   justify-content: center;
+}
